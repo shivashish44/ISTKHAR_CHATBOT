@@ -16,10 +16,10 @@ API_HASH = os.environ.get("API_HASH", None)
 BOT_TOKEN = os.environ.get("BOT_TOKEN", None) 
 MONGO_URL = os.environ.get("MONGO_URL", None)
 BOT_USERNAME = os.environ.get("BOT_USERNAME","") 
-UPDATE_CHNL = os.environ.get("UPDATE_CHNL","PURVI_SUPPORT")
-OWNER_USERNAME = os.environ.get("OWNER_USERNAME","ll_THUNDER_lll")
-SUPPORT_GRP = os.environ.get("SUPPORT_GRP","CRAZY_OP_02")
-BOT_NAME = os.environ.get("BOT_NAME","RADHIKA")
+UPDATE_CHNL = os.environ.get("UPDATE_CHNL","betabot_hub")
+OWNER_USERNAME = os.environ.get("OWNER_USERNAME","sukoon_s")
+SUPPORT_GRP = os.environ.get("SUPPORT_GRP","betabot_hub")
+BOT_NAME = os.environ.get("BOT_NAME","shiv")
 START_IMG = os.environ.get("START_IMG","")
 
 STKR = os.environ.get("STKR","")  
@@ -43,10 +43,7 @@ SOURCE_TEXT = f"""
 **๏ ʜᴇʏ, ɪ ᴀᴍ [{BOT_NAME}]
 ➻ ᴀɴ ᴀɪ-ʙᴀsᴇᴅ ᴄʜᴀᴛʙᴏᴛ.
 ──────────────────
-ᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ᴛʜᴇ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ**
-"""
-SOURCE_BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('sᴏᴜʀᴄᴇ', callback_data='hurr')], [InlineKeyboardButton(" ꜱᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/{SUPPORT_GRP}"), InlineKeyboardButton(text="ʙᴀᴄᴋ ", callback_data="HELP_BACK")]])
-SOURCE = 'https://github.com/TEAM-ISTKHAR/ISTKHAR_CHATBOT'
+
 x=["❤️","🎉","✨","🪸","🎉","🎈","🎯"]
 g=choice(x)
 async def is_admins(chat_id: int):
